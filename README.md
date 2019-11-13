@@ -1,4 +1,4 @@
 # Fusion-Financial
-A mock financial company website
+A mockup of financial company website
 
 Live Preview: https://fusion-financial.netlify.com/
