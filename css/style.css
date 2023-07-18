@@ -58,6 +58,7 @@ p {
 
 .m-heading {
   font-size: 2rem;
+  margin-top: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
@@ -106,6 +107,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 
