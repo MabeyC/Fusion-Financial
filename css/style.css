@@ -76,6 +76,8 @@ p {
 .p-2 { padding: 2rem; }
 .p-3 { padding: 3rem; }
 
+/* Button Styling */
+
 .btn {
   display: inline-block;
   
@@ -255,7 +257,10 @@ p {
 }
 
 /* Footer */
-
 a#copyright-link {
   color: #7ab436;
+}
+
+a#logo {
+  color: inherit;
 }
