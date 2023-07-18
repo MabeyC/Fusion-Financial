@@ -77,9 +77,10 @@ p {
 
 .btn {
   display: inline-block;
+  
   color: #fff;
   background: #93cb52;
-  padding: 0.5rem 2rem;
+  padding: 0.75rem 2rem;
   border: none;
   border-radius: 5px;
 }
@@ -91,7 +92,22 @@ p {
 .btn-dark {
   background: #333;
   color: #fff;
+  width: 40%;
 }
+
+.btn-light {
+  background: rgba(0,0,0,0.2);
+  color: #000;
+  width: 40%;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .list {
   margin: 0.5rem 0;
@@ -217,7 +233,7 @@ p {
 }
 
 #contact .contact-form .form-group {
-  margin: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 #contact .contact-form label {
