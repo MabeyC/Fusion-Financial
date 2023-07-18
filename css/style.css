@@ -252,3 +252,9 @@ p {
   background: url('../img/Fredericton\ with\ marker.png') no-repeat center center/cover;
   background-color: #93cb52;
 }
+
+/* Footer */
+
+a#copyright-link {
+  color: #7ab436;
+}
