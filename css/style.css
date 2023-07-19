@@ -80,7 +80,6 @@ p {
 
 .btn {
   display: inline-block;
-  
   color: #fff;
   background: #93cb52;
   padding: 0.75rem 2rem;
@@ -89,13 +88,16 @@ p {
 }
 
 .btn:hover {
-  background: #7ab436;
+  opacity: 0.8;
 }
 
 .btn-dark {
-  background: #333;
+  background: #CCC;
   color: #fff;
-  width: 40%;
+}
+
+.btn-form {
+  width: 30%;
 }
 
 .btn-light {
@@ -230,6 +232,10 @@ p {
 /* Section: Contact */
 #contact {
   display: flex;
+}
+
+#contact .m-heading {
+  color: #FFF;
 }
 
 #contact .map, #contact .contact-form {
