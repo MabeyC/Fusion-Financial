@@ -125,6 +125,14 @@ p {
   border-bottom: #444 dotted 1px;
 }
 
+.img-icons {
+  aspect-ratio: 1 / 1;
+}
+
+.blur-load {
+  background: cover;
+}
+
 /* Navbar */
 #navbar {
   display: flex;
@@ -156,7 +164,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #333 url('../img/Cityscape\ Financial\ District.jpg') no-repeat center center/cover;
+  background: #333 url('../img/Cityscape\ Financial\ District@1960px.webp') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   position: relative;
@@ -215,7 +223,31 @@ p {
 }
 
 #who .who-img {
-  background: url('../img/people.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  padding-left: 2rem;
+}
+
+img#company-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+div.blur-load {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#who div > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-position: center;
+  object-fit: cover;
 }
 
 /* Section: Clients */
