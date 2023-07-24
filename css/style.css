@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+  font-family: 'Roberto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap')
+      format('woff2');
+  font-display: swap;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
 
 * {
   box-sizing: border-box;
